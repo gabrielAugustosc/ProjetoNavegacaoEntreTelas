@@ -21,7 +21,7 @@ fun LoginScreen(modifier: Modifier = Modifier, navController: NavController) {
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(Color(0xFFED145B))
+            .background(Color(0xFF1B263B))
             .padding(32.dp)
     ) {
         Text(
@@ -38,7 +38,7 @@ fun LoginScreen(modifier: Modifier = Modifier, navController: NavController) {
             Text(
                 text = "ENTRAR",
                 fontSize = 20.sp,
-                color = Color.Blue
+                color = Color.Black
             )
         }
     }
